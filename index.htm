@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" crossorigin="anonymous" async="" src="Stand%20Up%20Paddle%20en%20Iquique%20-%20Aventura%20Acu%C3%A1tica_archivos/array.js"></script><script src="Stand%20Up%20Paddle%20en%20Iquique%20-%20Aventura%20Acu%C3%A1tica_archivos/e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stand Up Paddle en Iquique - Aventura Acuática</title>
+    <script src="C:\Yohanna\Pagina\3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#FF4F79',secondary:'#0FBCF9'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="C:\Yohanna\Pagina\css2.css" rel="stylesheet">
+    <link href="C:\Yohanna\Pagina\remixicon.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-section {
+            background-image: url('C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\principal.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gradient-overlay {
+            background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%);
+        }
+        .custom-shadow {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .tab-active {
+            color: #FF4F79;
+            border-bottom: 2px solid #FF4F79;
+        }
+    </style>
+
+    <!-- Navegación -->
+    <nav class="bg-white shadow-sm fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="font-['Pacifico'] text-2xl text-primary">SUPIquique</div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#inicio" class="text-gray-700 hover:text-primary transition-colors">Inicio</a>
+                    <a href="#experiencia" class="text-gray-700 hover:text-primary transition-colors">Experiencia</a>
+                    <a href="#galeria" class="text-gray-700 hover:text-primary transition-colors">Galería</a>
+                    <a href="#turismo" class="text-gray-700 hover:text-primary transition-colors">Turismo</a>
+                    <a href="#instructores" class="text-gray-700 hover:text-primary transition-colors">Instructores</a>
+                    <a href="#contacto" class="text-gray-700 hover:text-primary transition-colors">Contacto</a>
+                </div>
+                <div class="flex items-center md:hidden">
+                    <button class="w-10 h-10 flex items-center justify-center text-gray-700">
+                        <i class="ri-menu-line ri-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section relative h-screen flex items-center">
+        <div class="gradient-overlay absolute inset-0"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-2xl">
+                <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight mb-6">Descubre la Aventura del Stand Up Paddle en Iquique</h1>
+                <p class="text-xl text-white mb-8">Navega las 
+cristalinas aguas del Pacífico con vistas espectaculares a las montañas y
+ la ciudad. Una experiencia única para todos los niveles.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <button class="bg-primary text-white px-8 py-3 font-semibold !rounded-button whitespace-nowrap transition-all hover:bg-opacity-90">Reserva Ahora</button>
+                    <button class="bg-white text-gray-800 px-8 py-3 font-semibold !rounded-button whitespace-nowrap transition-all hover:bg-opacity-90">Ver Tours</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introducción al Deporte -->
+    <section id="experiencia" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">La Experiencia SUP</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Descubre por qué el Stand Up Paddle se ha convertido en uno de los deportes acuáticos más populares en Iquique.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">¿Qué es el Stand Up Paddle?</h3>
+                    <p class="text-gray-600 mb-6">El SUP o Stand Up 
+Paddle es un deporte acuático que consiste en remar de pie sobre una 
+tabla más grande y estable que las de surf convencional. Originario de 
+Hawaii, se ha popularizado en todo el mundo por su accesibilidad y los 
+increíbles paisajes que permite disfrutar.</p>
+                    
+                    <div class="grid grid-cols-2 gap-6 mb-8">
+                        <div class="flex items-start space-x-3">
+                            <div class="w-12 h-12 flex items-center justify-center bg-blue-50 rounded-full text-primary">
+                                <i class="ri-user-heart-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Para Todos</h4>
+                                <p class="text-sm text-gray-600">Ideal para principiantes y expertos</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-12 h-12 flex items-center justify-center bg-blue-50 rounded-full text-primary">
+                                <i class="ri-heart-pulse-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Beneficios</h4>
+                                <p class="text-sm text-gray-600">Ejercicio completo y bajo impacto</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-12 h-12 flex items-center justify-center bg-blue-50 rounded-full text-primary">
+                                <i class="ri-time-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Duración</h4>
+                                <p class="text-sm text-gray-600">Tours de 1 a 3 horas</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-12 h-12 flex items-center justify-center bg-blue-50 rounded-full text-primary">
+                                <i class="ri-sun-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Clima</h4>
+                                <p class="text-sm text-gray-600">Ideal todo el año en Iquique</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="bg-primary text-white px-6 py-3 font-semibold !rounded-button whitespace-nowrap transition-all hover:bg-opacity-90">Aprende Más</button>
+                </div>
+                
+                <div class="relative">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\menstanduppaddle.jpg" alt="Practicando Stand Up Paddle en Iquique" class="rounded-lg shadow-xl object-cover w-full h-full object-top">
+                    <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded shadow-lg">
+                        <div class="flex items-center space-x-1 text-yellow-400 mb-1">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                            <span class="text-gray-600 text-sm ml-1">4.8/5</span>
+                        </div>
+                        <p class="text-sm text-gray-600">Basado en más de 200 reseñas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Experiencias -->
+    <section id="galeria" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Galería de Experiencias</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Capturamos los mejores momentos de nuestras aventuras en las aguas de Iquique.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="relative overflow-hidden rounded-lg group transition-all duration-300 card-hover">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\paddles.jpg" alt="Vista aérea de SUP en Iquique" class="w-full h-80 object-cover object-top transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Aventuras Grupales</h3>
+                            <p class="text-white text-sm">Disfruta con amigos y familia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative overflow-hidden rounded-lg group transition-all duration-300 card-hover">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\sunset.jpg" alt="Atardecer en SUP" class="w-full h-80 object-cover object-top transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Tours al Atardecer</h3>
+                            <p class="text-white text-sm">Una experiencia mágica</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative overflow-hidden rounded-lg group transition-all duration-300 card-hover">
+                    <img src="
+                    C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\dostablas.jpg" alt="Clases de SUP" class="w-full h-80 object-cover object-top transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Clases para Principiantes</h3>
+                            <p class="text-white text-sm">Aprende con los mejores instructores</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative overflow-hidden rounded-lg group transition-all duration-300 card-hover">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\yoga.jpg" alt="SUP Yoga" class="w-full h-80 object-cover object-top transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">SUP Yoga</h3>
+                            <p class="text-white text-sm">Conecta con la naturaleza</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative overflow-hidden rounded-lg group transition-all duration-300 card-hover">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\chicaspaddle.jpg" alt="Diversión en grupo" class="w-full h-80 object-cover object-top transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Experiencias Sociales</h3>
+                            <p class="text-white text-sm">Haz nuevos amigos</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative overflow-hidden rounded-lg group transition-all duration-300 card-hover">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\natur.jpg" alt="Avistamiento de fauna marina" class="w-full h-80 object-cover object-top transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Tours de Naturaleza</h3>
+                            <p class="text-white text-sm">Avistamiento de fauna marina</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <button class="bg-white border border-gray-300 text-gray-700 px-6 py-3 font-semibold !rounded-button whitespace-nowrap transition-all hover:bg-gray-50">Ver Más Fotos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guía Turística de Iquique -->
+    <section id="turismo" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Guía Turística de Iquique</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Descubre todo lo que esta hermosa ciudad costera tiene para ofrecer durante tu visita.</p>
+            </div>
+            
+            <!-- Tabs de navegación -->
+            <div class="flex flex-wrap justify-center mb-12 border-b">
+                <button class="px-6 py-3 text-lg font-medium tab-active">Lugares Turísticos</button>
+                <button class="px-6 py-3 text-lg font-medium text-gray-500 hover:text-gray-700">Eventos</button>
+                <button class="px-6 py-3 text-lg font-medium text-gray-500 hover:text-gray-700">Restaurantes</button>
+                <button class="px-6 py-3 text-lg font-medium text-gray-500 hover:text-gray-700">Alojamiento</button>
+            </div>
+            
+            <!-- Contenido de Lugares Turísticos -->
+            <div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                        <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\cava.jpg" alt="Playa Cavancha" class="w-full h-48 object-cover object-top">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Playa Cavancha</h3>
+                            <p class="text-gray-600 mb-4">La playa más 
+popular de Iquique, perfecta para deportes acuáticos y relajación. 
+Cuenta con servicios completos y una hermosa costanera.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-gray-500">A 5 min del centro</span>
+                                <button class="text-primary font-medium flex items-center">
+                                    Ver ubicación
+                                    <i class="ri-arrow-right-line ml-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                        <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\zofri.jpg" alt="Zofri" class="w-full h-48 object-cover object-top">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Zona Franca (ZOFRI)</h3>
+                            <p class="text-gray-600 mb-4">El paraíso de las compras libres de impuestos. Encuentra electrónica, ropa, perfumes y más a precios increíbles.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-gray-500">A 10 min del centro</span>
+                                <button class="text-primary font-medium flex items-center">
+                                    Ver ubicación
+                                    <i class="ri-arrow-right-line ml-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                        <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\calle.jpg" alt="Calle Baquedano" class="w-full h-48 object-cover object-top">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Calle Baquedano</h3>
+                            <p class="text-gray-600 mb-4">Paseo histórico con arquitectura georgiana, declarado Monumento Nacional. Disfruta de cafés, restaurantes y tiendas.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-gray-500">En el centro histórico</span>
+                                <button class="text-primary font-medium flex items-center">
+                                    Ver ubicación
+                                    <i class="ri-arrow-right-line ml-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                        <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\faro.jpg" alt="Faro La Serena" class="w-full h-48 object-cover object-top">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Faro Punta Gruesa</h3>
+                            <p class="text-gray-600 mb-4">Emblemático faro con vistas panorámicas al océano Pacífico y la ciudad. Ideal para fotografías al atardecer.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-gray-500">A 15 min del centro</span>
+                                <button class="text-primary font-medium flex items-center">
+                                    Ver ubicación
+                                    <i class="ri-arrow-right-line ml-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                        <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\vuelo.jpg" alt="Parapente" class="w-full h-48 object-cover object-top">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Parapente en Alto Hospicio</h3>
+                            <p class="text-gray-600 mb-4">Experimenta la adrenalina de volar en parapente con vistas espectaculares de la ciudad, el desierto y el océano.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-gray-500">A 20 min del centro</span>
+                                <button class="text-primary font-medium flex items-center">
+                                    Ver ubicación
+                                    <i class="ri-arrow-right-line ml-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                        <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\ofici.jpg" alt="Humberstone" class="w-full h-48 object-cover object-top">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Oficinas Salitreras</h3>
+                            <p class="text-gray-600 mb-4">Visita Humberstone y Santa Laura, Patrimonio de la Humanidad por UNESCO. Pueblos fantasma que cuentan la historia del salitre.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-gray-500">A 45 min de Iquique</span>
+                                <button class="text-primary font-medium flex items-center">
+                                    Ver ubicación
+                                    <i class="ri-arrow-right-line ml-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-12 text-center">
+                    <button class="bg-primary text-white px-6 py-3 font-semibold !rounded-button whitespace-nowrap transition-all hover:bg-opacity-90">Ver Todos los Lugares</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Instructores -->
+    <section id="instructores" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Nuestros Instructores</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Profesionales certificados con años de experiencia en Stand Up Paddle.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 card-hover">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\profe1.jpg" alt="Instructor Carlos Mendoza" class="w-full h-64 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-1">Carlos Mendoza</h3>
+                        <p class="text-primary font-medium mb-3">Instructor Principal</p>
+                        <p class="text-gray-600 mb-4">Con más de 10 años
+ de experiencia en deportes acuáticos y certificaciones internacionales.
+ Especialista en técnicas avanzadas y SUP Yoga.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 card-hover">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\profe2.jpg" alt="Instructora Valentina Rojas" class="w-full h-64 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-1">Valentina Rojas</h3>
+                        <p class="text-primary font-medium mb-3">Instructora de SUP Fitness</p>
+                        <p class="text-gray-600 mb-4">Especialista en 
+entrenamiento físico sobre tabla. Combina ejercicios de alta intensidad 
+con la experiencia del paddle. Certificada en primeros auxilios.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 card-hover">
+                    <img src="C:\Yohanna\Pagina\Stand Up Paddle en Iquique - Aventura Acuática_archivos\profe3.jpg" alt="Instructor Matías Fuentes" class="w-full h-64 object-cover object-top">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-1">Matías Fuentes</h3>
+                        <p class="text-primary font-medium mb-3">Instructor de Principiantes</p>
+                        <p class="text-gray-600 mb-4">Especializado en 
+enseñar a principiantes con paciencia y técnicas adaptadas. Experto en 
+seguridad acuática y rescate. Bilingüe español/inglés.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-primary hover:text-white transition-colors">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Llamado a la Acción Final -->
+    <section id="contacto" class="relative py-20">
+       <!-- <div class="absolute inset-0" style="background-image: url('https://readdy.ai/api/search-image?query=Panoramic view of Iquique coastline, Chile, aerial perspective, mountains meeting ocean, city buildings along coast, beautiful sunset, dramatic landscape, paddle boarders visible in water&amp;width=1920&amp;height=1080&amp;seq=123473&amp;orientation=landscape&amp;removebg=false&amp;flag=4eac6dc24a36d94ac7d6a08cb7c39a81'); background-size: cover; background-position: center; filter: brightness(0.7);"></div> -->
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-xl bg-white rounded-lg p-8 shadow-xl mx-auto">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-2">¿Listo para la Aventura?</h2>
+                    <p class="text-gray-600">Reserva tu experiencia de Stand Up Paddle en Iquique</p>
+                </div>
+                
+                <form>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="nombre" class="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
+                            <input type="text" id="nombre" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tu nombre">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tu email">
+                        </div>
+                        <div>
+                            <label for="telefono" class="block text-sm font-medium text-gray-700 mb-1">Teléfono</label>
+                            <input type="tel" id="telefono" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tu teléfono">
+                        </div>
+                        <div>
+                            <label for="fecha" class="block text-sm font-medium text-gray-700 mb-1">Fecha</label>
+                            <input type="date" id="fecha" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="experiencia" class="block text-sm font-medium text-gray-700 mb-1">Tipo de Experiencia</label>
+                        <div class="relative">
+                            <select id="experiencia" class="w-full px-4 py-2 border border-gray-300 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent pr-8">
+                                <option value="" selected="selected">Selecciona una opción</option>
+                                <option value="principiante">Tour para Principiantes (1h)</option>
+                                <option value="intermedio">Tour Intermedio (2h)</option>
+                                <option value="avanzado">Tour Avanzado (3h)</option>
+                                <option value="atardecer">Tour al Atardecer (2h)</option>
+                                <option value="yoga">SUP Yoga (1.5h)</option>
+                            </select>
+                            <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                                <i class="ri-arrow-down-s-line text-gray-400"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="mensaje" class="block text-sm font-medium text-gray-700 mb-1">Mensaje</label>
+                        <textarea id="mensaje" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="¿Tienes alguna pregunta o requerimiento especial?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-primary text-white px-6 py-3 font-semibold !rounded-button whitespace-nowrap transition-all hover:bg-opacity-90">Reservar Ahora</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="font-['Pacifico'] text-3xl text-primary mb-4">SUPIquique</div>
+                    <p class="text-gray-400 mb-6">La mejor experiencia de Stand Up Paddle en el norte de Chile. Tours guiados, clases y alquiler de equipos.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 text-white hover:bg-primary transition-colors">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 text-white hover:bg-primary transition-colors">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 text-white hover:bg-primary transition-colors">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 text-white hover:bg-primary transition-colors">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Enlaces Rápidos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#inicio" class="text-gray-400 hover:text-white transition-colors">Inicio</a></li>
+                        <li><a href="#experiencia" class="text-gray-400 hover:text-white transition-colors">Experiencia SUP</a></li>
+                        <li><a href="#galeria" class="text-gray-400 hover:text-white transition-colors">Galería</a></li>
+                        <li><a href="#turismo" class="text-gray-400 hover:text-white transition-colors">Turismo</a></li>
+                        <li><a href="#instructores" class="text-gray-400 hover:text-white transition-colors">Instructores</a></li>
+                        <li><a href="#contacto" class="text-gray-400 hover:text-white transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Tours</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Tour para Principiantes</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Tour Intermedio</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Tour Avanzado</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Tour al Atardecer</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">SUP Yoga</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Alquiler de Equipos</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contacto</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center mt-0.5 mr-3 text-primary">
+                                <i class="ri-map-pin-line"></i>
+                            </div>
+                            <span class="text-gray-400">Playa Cavancha, frente al Hotel Gavina, Iquique, Chile</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3 text-primary">
+                                <i class="ri-phone-line"></i>
+                            </div>
+                            <span class="text-gray-400">+56 9 8765 4321</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3 text-primary">
+                                <i class="ri-mail-line"></i>
+                            </div>
+                            <span class="text-gray-400">info@supiquique.cl</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3 text-primary">
+                                <i class="ri-time-line"></i>
+                            </div>
+                            <span class="text-gray-400">Abierto todos los días: 9:00 - 18:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm mb-4 md:mb-0">© 2025 SUPIquique. Todos los derechos reservados.</p>
+                <div class="flex items-center space-x-4">
+                    <span class="text-gray-500 text-sm">Métodos de pago:</span>
+                    <div class="flex space-x-2">
+                        <i class="ri-visa-fill text-xl text-gray-400"></i>
+                        <i class="ri-mastercard-fill text-xl text-gray-400"></i>
+                        <i class="ri-paypal-fill text-xl text-gray-400"></i>
+                        <i class="ri-bank-card-fill text-xl text-gray-400"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
